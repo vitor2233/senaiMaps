@@ -1,0 +1,11 @@
+html{
+    height: 100%;
+}
+.back{
+    background: url("https://www.androidpolice.com/wp-content/uploads/2018/03/nexus2cee_85ed6e46-5dcb-4087-a56c-4c689b1d7db4.png");
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
