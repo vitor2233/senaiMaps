@@ -3,7 +3,7 @@
 </nav>
 <div>
   <div data-toggle="modal" data-whatever="Campus x" data-target="#exampleModal" class="card m-3 mb-4">
-    <h4>Campus x</h4>
+    <h4>Campus Senai</h4>
     <p>17/08/2019 - 15:00</p>
     <div class="col-12">
       <p>Evento:</p>
@@ -11,7 +11,7 @@
     </div>
   </div>
   <div data-toggle="modal" data-whatever="Campus y" data-target="#exampleModal" class="card m-3 mb-4">
-    <h4>Campus y</h4>
+    <h4>Campus Senai</h4>
     <p>29/07/2019 - 12:00</p>
     <div class="col-12">
         <p>Evento:</p>
@@ -19,7 +19,7 @@
       </div>
   </div>
   <div data-toggle="modal" data-whatever="Campus z" data-target="#exampleModal" class="card m-3 mb-4">
-    <h4>Campus z</h4>
+    <h4>Campus Senai</h4>
     <p>06/10/2019 - 20:00</p>
     <div class="col-12">
         <p>Evento:</p>
@@ -27,21 +27,21 @@
       </div>
   </div>
 </div>
-
+<!-- Modal-->
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Campus</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Campus Senai</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body text-center">
-        <button type="button" class="btn btn-primary">Ver informações do campus</button>
+        <button type="button" class="btn btn-primary" data-dismiss="modal" routerLink="/campus">Ver informações do campus</button>
       </div>
       <div class="modal-body text-center">
-        <button type="button" class="btn btn-primary">Ver mapa do campus</button>
+        <button type="button" class="btn btn-primary" data-dismiss="modal" routerLink="/mapa">Ver mapa do campus</button>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
