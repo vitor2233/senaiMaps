@@ -8,8 +8,8 @@ import { CampusComponent } from './campus/campus.component';
 import { LoginComponent } from './login/login.component';
 
 const routes: Routes = [
-  { path: '', component: LoginComponent },
-  { path: 'home', component: HomeComponent },
+  { path: '', component: HomeComponent },
+  { path: 'login', component: LoginComponent },
   { path: 'eventos', component: EventsComponent },
   { path: 'mapa', component: MapComponent },
   { path: 'campus', component: CampusComponent }
