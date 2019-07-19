@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { AgmCoreModule } from '@agm/core';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
@@ -22,7 +23,10 @@ import { LoginComponent } from './login/login.component';
    ],
    imports: [
       BrowserModule,
-      AppRoutingModule
+      AppRoutingModule,
+      AgmCoreModule.forRoot({
+         apiKey: 'AIzaSyAJ181WB1hSVXGz526lFcADZhSGMlJFthY'
+       })
    ],
    providers: [],
    bootstrap: [
