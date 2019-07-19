@@ -8,6 +8,7 @@ import { AppRoutingModule } from './/app-routing.module';
 import { NavComponent } from './nav/nav.component';
 import { CampusComponent } from './campus/campus.component';
 import { MapComponent } from './map/map.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
    declarations: [
@@ -16,7 +17,8 @@ import { MapComponent } from './map/map.component';
       EventsComponent,
       NavComponent,
       CampusComponent,
-      MapComponent
+      MapComponent,
+      LoginComponent
    ],
    imports: [
       BrowserModule,

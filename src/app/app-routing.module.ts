@@ -5,9 +5,11 @@ import { HomeComponent } from './home/home.component';
 import { EventsComponent } from './events/events.component';
 import { MapComponent } from './map/map.component';
 import { CampusComponent } from './campus/campus.component';
+import { LoginComponent } from './login/login.component';
 
 const routes: Routes = [
-  { path: '', component: HomeComponent },
+  { path: '', component: LoginComponent },
+  { path: 'home', component: HomeComponent },
   { path: 'eventos', component: EventsComponent },
   { path: 'mapa', component: MapComponent },
   { path: 'campus', component: CampusComponent }
