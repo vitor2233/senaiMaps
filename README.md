@@ -1,6 +1,7 @@
 # EventsSPA
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
+This project was generated with [Angular CLI]version 6.0.8.
+App used to the people know where they are on the campus.
 
 ## Installation
 
